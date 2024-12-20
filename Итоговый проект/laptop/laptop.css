@@ -1,0 +1,239 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+}
+.snowblock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    pointer-events: none;
+    width: 100%;
+    height: 3000px;
+    background-image: url(https://webtort.ru/wp-content/uploads/2019/12/snow1.png), 
+                      url(https://webtort.ru/wp-content/uploads/2019/12/snow2.png), 
+                      url(https://webtort.ru/wp-content/uploads/2019/12/snow3.png);
+    animation: snow 40s linear infinite;
+}
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 1800px 2000px, 1600px 1600px, 1400px 1200px;}
+}
+
+.icon_house{font-size: 20px;}
+
+.icon_house:hover{transform: scale(2);}
+
+.a1:link    {color:rgb(255, 255, 255); text-decoration:none}
+.a1:visited {color:rgb(255, 255, 255); text-decoration:none}
+.a1:hover   {color:rgb(0, 131, 253); text-decoration:none}
+.a1:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.tech_store{
+    padding-top: 4px;
+    padding-right: 1040px;
+}
+
+.a2:link    {color:rgb(255, 255, 255); text-decoration:none}
+.a2:visited {color:rgb(255, 255, 255); text-decoration:none}
+.a2:hover   {color:rgb(0, 131, 253); text-decoration:none}
+.a2:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.title1{
+    display: flex;
+    flex-direction: row;
+}
+
+.text_title1{
+    padding-right: 30px;
+    padding-top: 4px;
+}
+
+.text_title2{
+    padding-right: 30px;
+    padding-top: 4px;
+}
+
+.text_title3{
+    padding-right: 30px;
+    padding-top: 4px;
+}
+
+.text_title4{
+    padding-right: 30px;
+    padding-top: 4px;
+}
+
+.text_title5{
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.text_title6{
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.text_title7{font-size: 20px;}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 200px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card_img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.card_title{
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.card_spec{
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.card_price {
+    font-size: 1.1em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+}
+
+.card_button:hover {
+    background-color: rgb(0, 131, 253);
+    color: white;
+    text-decoration:none
+}
+.card_button:link    {color:rgb(255, 255, 255); text-decoration:none}
+.card_button:visited {color:rgb(255, 255, 255); text-decoration:none}
+.card_button:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.back{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text_back1{
+    padding-left: 150px;
+}
+
+.p_text_back{
+    color: gray;
+}
+
+.text_back2{
+    padding-right: 150px;
+}
+
+.fa-twitter{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: rgb(0, 131, 253);
+}
+
+.fa-twitter:hover{transform: scale(2);}
+
+a.ax:link    {color:rgb(0, 131, 253); text-decoration:none}
+a.ax:visited {color:rgb(0, 131, 253); text-decoration:none}
+a.ax:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.ax:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.fa-vk{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 131, 253);
+}
+
+.fa-vk:hover{transform: scale(2);}
+
+a.avk:link    {color:rgb(0, 131, 253); text-decoration:none}
+a.avk:visited {color:rgb(0, 131, 253); text-decoration:none}
+a.avk:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.avk:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.fa-instagram{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 131, 253);
+}
+
+.fa-instagram:hover{transform: scale(2);}
+
+a.ain:link    {color:rgb(0, 131, 253); text-decoration:none}
+a.ain:visited {color:rgb(0, 131, 253); text-decoration:none}
+a.ain:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.ain:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.fa-telegram{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 131, 253);
+}
+
+.fa-telegram:hover{transform: scale(2);}
+
+a.atel:link    {color:rgb(0, 131, 253); text-decoration:none}
+a.atel:visited {color:rgb(0, 131, 253); text-decoration:none}
+a.atel:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.atel:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.fa-youtube{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 131, 253);
+}
+
+.fa-youtube:hover{transform: scale(2);}
+
+a.ayt:link    {color:rgb(0, 131, 253); text-decoration:none}
+a.ayt:visited {color:rgb(0, 131, 253); text-decoration:none}
+a.ayt:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.ayt:active  {color:rgb(0, 131, 253); text-decoration:none}

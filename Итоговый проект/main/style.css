@@ -1,0 +1,260 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+}
+.snowblock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    pointer-events: none;
+    width: 100%;
+    height: 3700px;
+    background-image: url(https://webtort.ru/wp-content/uploads/2019/12/snow1.png), 
+                      url(https://webtort.ru/wp-content/uploads/2019/12/snow2.png), 
+                      url(https://webtort.ru/wp-content/uploads/2019/12/snow3.png);
+    animation: snow 40s linear infinite;
+}
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 1800px 2000px, 1600px 1600px, 1400px 1200px;}
+}
+
+.icon_house{font-size: 20px;}
+
+.icon_house:hover{transform: scale(2);}
+
+.a1:link    {color:rgb(255, 255, 255); text-decoration:none}
+.a1:visited {color:rgb(255, 255, 255); text-decoration:none}
+.a1:hover   {color:rgb(0, 131, 253); text-decoration:none}
+.a1:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.tech_store{
+    padding-top: 4px;
+    padding-right: 1040px;
+}
+
+.a2:link    {color:rgb(255, 255, 255); text-decoration:none}
+.a2:visited {color:rgb(255, 255, 255); text-decoration:none}
+.a2:hover   {color:rgb(0, 131, 253); text-decoration:none}
+.a2:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.title1{
+    display: flex;
+    flex-direction: row;
+}
+
+.text_title1{
+    padding-right: 30px;
+    padding-top: 4px;
+}
+
+.text_title2{
+    padding-right: 30px;
+    padding-top: 4px;
+}
+
+.text_title3{
+    padding-right: 30px;
+    padding-top: 4px;
+}
+
+.text_title4{
+    padding-right: 30px;
+    padding-top: 4px;
+}
+
+.text_title5{
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.text_title6{
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.text_title7{font-size: 20px;}
+
+.main1{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.card{
+    background-image: url("https://avatars.mds.yandex.net/i?id=a30a7d3afa58fe2a89df13efaf37cb2a_l-5234731-images-thumbs&n=13");
+    color: white;
+}
+
+a.axiaomi:link    {color:rgb(255, 255, 255); text-decoration:none}
+a.axiaomi:visited {color:rgb(255, 255, 255); text-decoration:none}
+a.axiaomi:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.axiaomi:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.card1_xiaomi{
+    background-color: black;
+    color: white;
+}
+
+.card2_xiaomi{
+    background-color: black;
+    color: white;
+    padding-top: 23px;
+}
+
+.card3_xiaomi{
+    background-color: black;
+    color: white;
+}
+
+.card4_xiaomi{
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+}
+
+.main2{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.card-oneplus{background-color: black;}
+.card-oneplus1{background-color: black;}
+
+a.aoneplus:link    {color:rgb(255, 255, 255); text-decoration:none}
+a.aoneplus:visited {color:rgb(255, 255, 255); text-decoration:none}
+a.aoneplus:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.aoneplus:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.main3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 30px;
+}
+
+.card-main3_1{
+    background-color: rgb(243, 243, 243);
+    padding-top: 8px;
+}
+
+.card-main3_2{
+    background-color: rgb(243, 243, 243);
+}
+
+.card-main3_3{
+    background-color: rgb(243, 243, 243);
+}
+
+.carousel-fade{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.back{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text_back1{
+    padding-left: 150px;
+}
+
+.p_text_back{
+    color: gray;
+}
+
+.text_back2{
+    padding-right: 150px;
+}
+
+.fa-twitter{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: rgb(0, 131, 253);
+}
+
+.fa-twitter:hover{transform: scale(2);}
+
+a.ax:link    {color:rgb(0, 131, 253); text-decoration:none}
+a.ax:visited {color:rgb(0, 131, 253); text-decoration:none}
+a.ax:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.ax:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.fa-vk{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 131, 253);
+}
+
+.fa-vk:hover{transform: scale(2);}
+
+a.avk:link    {color:rgb(0, 131, 253); text-decoration:none}
+a.avk:visited {color:rgb(0, 131, 253); text-decoration:none}
+a.avk:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.avk:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.fa-instagram{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 131, 253);
+}
+
+.fa-instagram:hover{transform: scale(2);}
+
+a.ain:link    {color:rgb(0, 131, 253); text-decoration:none}
+a.ain:visited {color:rgb(0, 131, 253); text-decoration:none}
+a.ain:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.ain:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.fa-telegram{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 131, 253);
+}
+
+.fa-telegram:hover{transform: scale(2);}
+
+a.atel:link    {color:rgb(0, 131, 253); text-decoration:none}
+a.atel:visited {color:rgb(0, 131, 253); text-decoration:none}
+a.atel:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.atel:active  {color:rgb(0, 131, 253); text-decoration:none}
+
+.fa-youtube{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 131, 253);
+}
+
+.fa-youtube:hover{transform: scale(2);}
+
+a.ayt:link    {color:rgb(0, 131, 253); text-decoration:none}
+a.ayt:visited {color:rgb(0, 131, 253); text-decoration:none}
+a.ayt:hover   {color:rgb(0, 131, 253); text-decoration:none}
+a.ayt:active  {color:rgb(0, 131, 253); text-decoration:none}
